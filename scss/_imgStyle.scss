@@ -1,0 +1,77 @@
+//header
+header .message {
+    background: url(../img/icon/notfi.png) no-repeat center;
+    background-size: contain;
+}
+
+//btnArea
+.btnArea .login_ic {
+    background: url(../img/icon/member.png) no-repeat center;
+    background-size: contain;
+}
+
+//gameType
+.gamepic.aaSport {
+    background: url(../img/gameType/sport.png) no-repeat bottom;
+    background-size: 103%;
+}
+.gamepic.bcLive {
+    background: url(../img/gameType/live_BC.png) no-repeat bottom;
+    background-size: 95%;
+}
+.gamepic.ccLive {
+    background: url(../img/gameType/live_CC.png) no-repeat bottom;
+    background-size: 96%;
+}
+.gamepic.ssSlot {
+    background: url(../img/gameType/slot_SS.png) no-repeat center;
+    background-size: 100%;
+}
+.gamepic.nnSlot {
+    background: url(../img/gameType/slot_NN.png) no-repeat center;
+    background-size: 100%;
+}
+.gamepic.ttSlot {
+    background: url(../img/gameType/slot_TT.png) no-repeat center;
+    background-size: 100%;
+}
+.gamepic.aaaTicket {
+    background: url(../img/gameType/ticket_AA.png) no-repeat bottom;
+    background-size: 107%;
+}
+.gamepic.fish {
+    background: url(../img/gameType/fish.png) no-repeat bottom;
+    background-size: 98%;
+}
+.gamepic.board {
+    background: url(../img/gameType/board.png) no-repeat bottom;
+    background-size: 105%;
+}
+
+//footer
+footer .home_ic {
+    background: url(../img/icon/home.png) no-repeat center;
+    background-size: 100%;
+}
+footer .discount_ic {
+    background: url(../img/icon/discount.png) no-repeat center;
+    background-size: 100%;
+}
+footer .wallet_ic {
+    background: url(../img/icon/wallet.png) no-repeat center;
+    background-size: 100%;
+}
+footer .cs_ic {
+    background: url(../img/icon/cs.png) no-repeat center;
+    background-size: 100%;
+}
+footer .mem_ic {
+    background: url(../img/icon/memCenter.png) no-repeat center;
+    background-size: 100%;
+}
+
+//bg
+.bg {
+    background: url(../img/bg.png) no-repeat top;
+    background-size: cover;
+}

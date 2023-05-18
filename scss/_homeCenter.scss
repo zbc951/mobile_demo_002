@@ -1,0 +1,127 @@
+// 按鈕區
+.btnArea {
+    width: 94%;
+    height: 14vw;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    button {
+        color: $mainFont;
+        border: 2px solid $border_color01;
+        border-radius: 10px;
+        box-shadow: inset 0.5px 0.5px 1px $BTN_inset;
+
+        i {
+            width: 7vw;
+            height: 7vw;
+        }
+
+        &:first-child {
+            width: 35vw;
+            height: 100%;
+            background: $loginBTN;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 4.5vw;
+            padding: 0 10px;
+        }
+
+        &:not(:first-child) {
+            width: 13vw;
+            height: 100%;
+            background: $dtwBTN;
+            font-size: 7vw;
+            font-weight: bold;
+        }
+
+        &:last-child {
+            background: $vipBTN;
+            font-size: 5.8vw;
+            box-shadow: inset 0.5px 0.5px 1px $BTN_inset02;
+        }
+    }
+}
+
+.homeCenter {
+    width: 94%;
+    height: auto;
+    margin: 0 auto;
+
+    .gameType {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3,3fr);
+        gap: 2vw;
+        margin-top: 5vw;
+
+        .gameBlock {
+            width: 30vw;
+            height: 32vw;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+
+            .gamepic {
+                width: 100%;
+                height: 0;
+
+                &.aaSport {
+                    padding-top: 24vw;
+                }
+
+                &.bcLive {
+                    padding-top: 24vw;
+                }
+
+                &.ccLive {
+                    padding-top: 24vw;
+                }
+
+                &.ssSlot {
+                    padding-top: 24vw;
+                }
+
+                &.nnSlot {
+                    padding-top: 24vw;
+                }
+
+                &.ttSlot {
+                    padding-top: 24vw;
+                }
+
+                &.aaaTicket {
+                    padding-top: 26vw;
+                }
+
+                &.fish {
+                    padding-top: 26vw;
+                }
+
+                &.board {
+                    padding-top: 27vw;
+                }
+            }
+            
+            .gameName {
+                width: 100%;
+                color: $mainFont;
+                font-size: 3.5vw;
+                font-weight: bold;
+                text-align: center;
+                line-height: 3.5vw;
+                letter-spacing: 0.5vw;
+                margin-top: 3vw;
+            }
+
+            // &:last-child {
+            //     .gameName {
+            //         margin-top: 1.5vw;
+            //     }
+            // }
+        }
+    }
+}

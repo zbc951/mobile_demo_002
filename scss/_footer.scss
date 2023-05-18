@@ -1,0 +1,46 @@
+footer {
+    width: 100%;
+    height: 16vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+
+        li {
+            width: calc(100% / 5);
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            @include footerNAV;
+            border-right: 1px dashed $border_color02;
+            position: relative;
+            
+            i {
+                width: 6vw;
+                height: 7vw;
+                margin-bottom: 0.8vw;
+            }
+
+            p {
+                font-size: 3.5vw;
+                font-weight: bold;
+            }
+
+            &:last-child {
+                border-right: 0;
+            }
+
+            &:active,&.active {
+                height: 100%;
+            }
+        }
+        
+    }
+}

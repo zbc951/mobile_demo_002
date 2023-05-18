@@ -1,0 +1,74 @@
+.ad {
+    width: 94%;
+    height: 41vw;
+    position: relative;
+    overflow: hidden;
+
+    &.swiper {
+        .swiper-slide {
+            height: auto !important;
+            height: 100%;
+            border: 1px solid $border_color01;
+            border-radius: 10px;
+            overflow: hidden;
+            font-size: 0;
+            
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+// 輪播圖
+.marquee {
+    width: 94%;
+    height: 8vw;
+    background: $marquee_BG;
+    border: 1px solid $border_color01;
+    border-radius: 10px;
+    display: flex;
+    flex-shrink: 0;
+    padding: 0 4vw 0 2vw;
+    margin: 5vw auto;
+
+    .title {
+        width: 10%;
+        color: $mainFont;
+        font-size: 4.4vw;
+        white-space: nowrap;
+        flex-shrink: 0;
+        margin: auto 2vw auto auto;
+    }
+
+    .textBox {
+        width: 90%;
+        height: 80%;
+        background: $textBox_BG;
+        border: 1px solid $border_color01;
+        border-radius: 8px;
+        margin: auto 0;
+        overflow: hidden;
+
+        .content {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            color: $mainFont;
+            font-size: 4vw;
+            padding: 0 0 0 10px;
+            animation: mq 6s linear infinite;
+
+            @keyframes mq {
+                0% {
+                    transform: translateX(100%);
+                }
+                100% {
+                    transform: translateX(-100%);
+                }
+            }
+        }
+    }
+}

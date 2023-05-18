@@ -1,0 +1,536 @@
+@charset "UTF-8";
+header .message {
+  background: url(../img/icon/notfi.png) no-repeat center;
+  background-size: contain;
+}
+
+.btnArea .login_ic {
+  background: url(../img/icon/member.png) no-repeat center;
+  background-size: contain;
+}
+
+.gamepic.aaSport {
+  background: url(../img/gameType/sport.png) no-repeat bottom;
+  background-size: 103%;
+}
+
+.gamepic.bcLive {
+  background: url(../img/gameType/live_BC.png) no-repeat bottom;
+  background-size: 95%;
+}
+
+.gamepic.ccLive {
+  background: url(../img/gameType/live_CC.png) no-repeat bottom;
+  background-size: 96%;
+}
+
+.gamepic.ssSlot {
+  background: url(../img/gameType/slot_SS.png) no-repeat center;
+  background-size: 100%;
+}
+
+.gamepic.nnSlot {
+  background: url(../img/gameType/slot_NN.png) no-repeat center;
+  background-size: 100%;
+}
+
+.gamepic.ttSlot {
+  background: url(../img/gameType/slot_TT.png) no-repeat center;
+  background-size: 100%;
+}
+
+.gamepic.aaaTicket {
+  background: url(../img/gameType/ticket_AA.png) no-repeat bottom;
+  background-size: 107%;
+}
+
+.gamepic.fish {
+  background: url(../img/gameType/fish.png) no-repeat bottom;
+  background-size: 98%;
+}
+
+.gamepic.board {
+  background: url(../img/gameType/board.png) no-repeat bottom;
+  background-size: 105%;
+}
+
+footer .home_ic {
+  background: url(../img/icon/home.png) no-repeat center;
+  background-size: 100%;
+}
+
+footer .discount_ic {
+  background: url(../img/icon/discount.png) no-repeat center;
+  background-size: 100%;
+}
+
+footer .wallet_ic {
+  background: url(../img/icon/wallet.png) no-repeat center;
+  background-size: 100%;
+}
+
+footer .cs_ic {
+  background: url(../img/icon/cs.png) no-repeat center;
+  background-size: 100%;
+}
+
+footer .mem_ic {
+  background: url(../img/icon/memCenter.png) no-repeat center;
+  background-size: 100%;
+}
+
+.bg {
+  background: url(../img/bg.png) no-repeat top;
+  background-size: cover;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1;
+  font-family: "微軟正黑體";
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: "微軟正黑體";
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 0px;
+  font-family: "微軟正黑體";
+}
+
+select, input {
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "微軟正黑體";
+}
+
+main {
+  display: block;
+}
+
+html, body {
+  width: 100%;
+  height: auto;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+html body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+html body main {
+  width: 100%;
+  height: auto;
+  padding: 18vw 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow-y: auto;
+  padding-bottom: 9vw;
+}
+html body .bg {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999;
+}
+html header {
+  width: 100%;
+  height: 14vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: -webkit-gradient(linear, left top, right top, from(#323232), color-stop(50%, #282727), to(#323232));
+  background: linear-gradient(to right, #323232 0%, #282727 50%, #323232 100%);
+  border-radius: 0 0 25px 25px;
+  border: 1px solid #a98f48;
+  padding: 0 5vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+html header .menu {
+  width: 10vw;
+  height: 4vw;
+  padding: 0 2vw;
+}
+html header .menu span {
+  width: 100%;
+  height: 1vw;
+  display: block;
+  background: #e6c782;
+}
+html header .menu span:nth-of-type(2) {
+  margin: 0.8vw 0;
+}
+html header .logo img {
+  width: 23vw;
+  height: auto;
+}
+html header .message {
+  width: 10vw;
+  height: 6vw;
+  position: relative;
+}
+html header .message::before {
+  content: "";
+  width: 3vw;
+  height: 3vw;
+  background: linear-gradient(-45deg, #7e30c9 0%, #e43ebb 100%);
+  border-radius: 10px;
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}
+html .ad {
+  width: 94%;
+  height: 41vw;
+  position: relative;
+  overflow: hidden;
+}
+html .ad.swiper .swiper-slide {
+  height: auto !important;
+  height: 100%;
+  border: 1px solid #a98f48;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 0;
+}
+html .ad.swiper .swiper-slide img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+html .marquee {
+  width: 94%;
+  height: 8vw;
+  background: -webkit-gradient(linear, left top, left bottom, from(#272727), to(#0b0b0b));
+  background: linear-gradient(to bottom, #272727 0%, #0b0b0b 100%);
+  border: 1px solid #a98f48;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  padding: 0 4vw 0 2vw;
+  margin: 5vw auto;
+}
+html .marquee .title {
+  width: 10%;
+  color: #f8e9ad;
+  font-size: 4.4vw;
+  white-space: nowrap;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: auto 2vw auto auto;
+}
+html .marquee .textBox {
+  width: 90%;
+  height: 80%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#9f8746), to(#574727));
+  background: linear-gradient(to top, #9f8746 0%, #574727 100%);
+  border: 1px solid #a98f48;
+  border-radius: 8px;
+  margin: auto 0;
+  overflow: hidden;
+}
+html .marquee .textBox .content {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #f8e9ad;
+  font-size: 4vw;
+  padding: 0 0 0 10px;
+  -webkit-animation: mq 6s linear infinite;
+          animation: mq 6s linear infinite;
+}
+@-webkit-keyframes mq {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+@keyframes mq {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+html .btnArea {
+  width: 94%;
+  height: 14vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+html .btnArea button {
+  color: #f8e9ad;
+  border: 2px solid #a98f48;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0.5px 0.5px 1px #5d0f3c;
+          box-shadow: inset 0.5px 0.5px 1px #5d0f3c;
+}
+html .btnArea button i {
+  width: 7vw;
+  height: 7vw;
+}
+html .btnArea button:first-child {
+  width: 35vw;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#9b2b8f), color-stop(41%, #751c4c), to(#e36acb));
+  background: linear-gradient(to top, #9b2b8f 0%, #751c4c 41%, #e36acb 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 4.5vw;
+  padding: 0 10px;
+}
+html .btnArea button:not(:first-child) {
+  width: 13vw;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#c46cae), color-stop(56%, #801051), color-stop(98%, #763ebb));
+  background: linear-gradient(to bottom, #c46cae 0%, #801051 56%, #763ebb 98%);
+  font-size: 7vw;
+  font-weight: bold;
+}
+html .btnArea button:last-child {
+  background: -webkit-gradient(linear, left top, left bottom, from(#a97cf3), color-stop(53%, #4a1f8c), to(#6824c6));
+  background: linear-gradient(to bottom, #a97cf3 0%, #4a1f8c 53%, #6824c6 100%);
+  font-size: 5.8vw;
+  -webkit-box-shadow: inset 0.5px 0.5px 1px rgba(0, 0, 0, 0.7176470588);
+          box-shadow: inset 0.5px 0.5px 1px rgba(0, 0, 0, 0.7176470588);
+}
+html .homeCenter {
+  width: 94%;
+  height: auto;
+  margin: 0 auto;
+}
+html .homeCenter .gameType {
+  width: 100%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 2vw 3fr 2vw 3fr;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 2vw;
+  margin-top: 5vw;
+}
+html .homeCenter .gameType .gameBlock {
+  width: 30vw;
+  height: 32vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+html .homeCenter .gameType .gameBlock .gamepic {
+  width: 100%;
+  height: 0;
+}
+html .homeCenter .gameType .gameBlock .gamepic.aaSport {
+  padding-top: 24vw;
+}
+html .homeCenter .gameType .gameBlock .gamepic.bcLive {
+  padding-top: 24vw;
+}
+html .homeCenter .gameType .gameBlock .gamepic.ccLive {
+  padding-top: 24vw;
+}
+html .homeCenter .gameType .gameBlock .gamepic.ssSlot {
+  padding-top: 24vw;
+}
+html .homeCenter .gameType .gameBlock .gamepic.nnSlot {
+  padding-top: 24vw;
+}
+html .homeCenter .gameType .gameBlock .gamepic.ttSlot {
+  padding-top: 24vw;
+}
+html .homeCenter .gameType .gameBlock .gamepic.aaaTicket {
+  padding-top: 26vw;
+}
+html .homeCenter .gameType .gameBlock .gamepic.fish {
+  padding-top: 26vw;
+}
+html .homeCenter .gameType .gameBlock .gamepic.board {
+  padding-top: 27vw;
+}
+html .homeCenter .gameType .gameBlock .gameName {
+  width: 100%;
+  color: #f8e9ad;
+  font-size: 3.5vw;
+  font-weight: bold;
+  text-align: center;
+  line-height: 3.5vw;
+  letter-spacing: 0.5vw;
+  margin-top: 3vw;
+}
+html footer {
+  width: 100%;
+  height: 16vw;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+html footer ul {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+html footer ul li {
+  width: 20%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left bottom, left top, from(#77662c), to(#c8b36d));
+  background: linear-gradient(to top, #77662c 0%, #c8b36d 100%);
+  border-radius: 10px 10px 0 0;
+  color: #5e0f3b;
+  border-right: 1px dashed #161219;
+  position: relative;
+}
+html footer ul li:active, html footer ul li.active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#804fd3), to(#ae1374));
+  background: linear-gradient(to top, #804fd3 0%, #ae1374 100%);
+  border-right: transparent;
+}
+html footer ul li:active i, html footer ul li.active i {
+  -webkit-filter: brightness(100);
+          filter: brightness(100);
+}
+html footer ul li:active p, html footer ul li.active p {
+  color: #ffffff;
+}
+html footer ul li i {
+  width: 6vw;
+  height: 7vw;
+  margin-bottom: 0.8vw;
+}
+html footer ul li p {
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+html footer ul li:last-child {
+  border-right: 0;
+}
+html footer ul li:active, html footer ul li.active {
+  height: 100%;
+}

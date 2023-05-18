@@ -1,0 +1,43 @@
+//主色
+$mainColor: #e6c782;
+
+//字色
+$mainFont: #f8e9ad;
+
+//border
+$border_color01: #a98f48;
+$border_color02: #161219;
+
+//header
+$header_BG: linear-gradient(to right, #323232 0% , #282727 50% , #323232 100% );
+$message_notfi: linear-gradient(-45deg, #7e30c9 0%, #e43ebb 100%);
+
+//marquee
+$marquee_BG: linear-gradient(to bottom, #272727 0%, #0b0b0b 100%);
+$textBox_BG: linear-gradient(to top, #9f8746 0%, #574727 100%);
+
+//btnArea
+$loginBTN: linear-gradient(to top, #9b2b8f 0%, #751c4c 41%, #e36acb 100%);
+$dtwBTN: linear-gradient(to bottom, #c46cae 0%, #801051 56%, #763ebb 98%);
+$vipBTN: linear-gradient(to bottom, #a97cf3 0%, #4a1f8c 53%, #6824c6 100%);
+$BTN_inset: #5d0f3c;
+$BTN_inset02: #000000b7;
+
+//footer
+@mixin  footerNAV {
+    background: linear-gradient(to top, #77662c 0%, #c8b36d 100%);
+    border-radius: 10px 10px 0 0;
+    color: #5e0f3b;
+
+    &:active,&.active {
+        background:linear-gradient(to top, #804fd3 0%, #ae1374 100%);
+        border-right: transparent;
+
+        i {
+            filter: brightness(100);
+        }
+        p {
+            color: #ffffff;
+        }
+    }
+}
